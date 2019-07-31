@@ -2,17 +2,18 @@
 #'
 #' @source [Unicode® Emoji Charts v5.0](http://unicode.org/emoji/charts/index.html)
 #'
-#' @format tibble with columns
+#' @format tibble with columns \itemize{
 #'
-#' - id: identifier
-#' - emoji: character representation of the emoji
-#' - name: name
-#' - group: group, e.g. "Smileys & People"
-#' - subgroup: sub group, e.g. "face-positive"
-#' - keywords: vector of keywords
-#' - runes: vector of unicode runes, i.e. hexadecimal representations prefixed with "U+"
-#' - nrunes: number of runes the emoji uses
-#' - apple ... windows: logical indicating if the given vendor supports the emoji
+#' \item - id: identifier
+#' \item - emoji: character representation of the emoji
+#' \item - name: name
+#' \item - group: group, e.g. "Smileys & People"
+#' \item - subgroup: sub group, e.g. "face-positive"
+#' \item - keywords: vector of keywords
+#' \item - runes: vector of unicode runes, i.e. hexadecimal representations prefixed with "U+"
+#' \item - nrunes: number of runes the emoji uses
+#' \item - apple ... windows: logical indicating if the given vendor supports the emoji
+#' }
 "jis"
 
 #' emoji names
