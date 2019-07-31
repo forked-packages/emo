@@ -3,6 +3,7 @@
 #' @source [Unicode® Emoji Charts v5.0](http://unicode.org/emoji/charts/index.html)
 #'
 #' @format tibble with columns
+#'
 #' - id: identifier
 #' - emoji: character representation of the emoji
 #' - name: name
